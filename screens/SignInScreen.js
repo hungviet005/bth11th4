@@ -79,8 +79,8 @@ export default function SignInScreen({ navigation }) {
           }}
         >
           <Image
-            source={require("../assets/google.png")}
-            style={{ width: 20, height: 20, marginRight: 10 }}
+            source={require("../assets/gg.png")}
+            style={{ width: 25, height: 25, marginRight: 10 }}
           />
           <Text style={{ color: "white", fontWeight: "bold" }}>
             Continue with Google
@@ -99,8 +99,8 @@ export default function SignInScreen({ navigation }) {
           }}
         >
           <Image
-            source={require("../assets/facebook.png")}
-            style={{ width: 20, height: 20, marginRight: 10 }}
+            source={require("../assets/fb.png")}
+            style={{ width: 20, height: 40, marginRight: 10 }}
           />
           <Text style={{ color: "white", fontWeight: "bold" }}>
             Continue with Facebook
