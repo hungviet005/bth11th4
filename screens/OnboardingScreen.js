@@ -25,7 +25,7 @@ export default function OnboardingScreen({ navigation }) {
           
           {/* LOGO */}
           <Image
-            source={require("../assets/logo.png")}
+            source={require("../assets/Group.png")}
             style={{ width: 70, height: 70 }}
             resizeMode="contain"
           />
@@ -72,8 +72,8 @@ export default function OnboardingScreen({ navigation }) {
           </TouchableOpacity>
         </View>
 
-        {/* khoảng trống dưới (to hơn để đẩy content lên) */}
-        <View style={{ flex: 0.4 }} />
+       
+        <View style={{ flex: 0.41 }} />
 
       </View>
     </ImageBackground>
