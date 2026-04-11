@@ -16,7 +16,7 @@ export default function SignInScreen({ navigation }) {
         source={require("../assets/anh2.png")} 
         style={{
           width: "100%",
-          height: 550,
+          height: 490,
           resizeMode: "cover",
         }}
       />
