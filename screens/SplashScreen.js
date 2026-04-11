@@ -17,16 +17,14 @@ export default function SplashScreen({ navigation }) {
         alignItems: "center",
       }}
     >
-      {/* HÀNG NGANG */}
+      {/* LOGO + TEXT */}
       <View style={{ flexDirection: "row", alignItems: "center" }}>
         
         {/* LOGO */}
-        <View>
-          <Image
-            source={require("../assets/Group.png")}
-            style={{ width: 50, height: 60 }}
-          />
-        </View>
+        <Image
+          source={require("../assets/Group.png")}
+          style={{ width: 50, height: 60 }}
+        />
 
         {/* TEXT */}
         <View style={{ marginLeft: 10 }}>
@@ -50,8 +48,19 @@ export default function SplashScreen({ navigation }) {
             online groceries
           </Text>
         </View>
-
       </View>
+
+      <Text
+        style={{
+          marginTop: 30,
+          color: "white",
+          fontSize: 16,
+          fontWeight: "500",
+        }}
+      >
+        Bài làm của XA VIỆT HÙNG
+      </Text>
+
     </View>
   );
 }

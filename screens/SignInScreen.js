@@ -13,7 +13,7 @@ export default function SignInScreen({ navigation }) {
       
       {/* HEADER IMAGE */}
       <Image
-        source={require("../assets/anh2.png")} // ảnh đồ ăn bạn có
+        source={require("../assets/anh2.png")} 
         style={{
           width: "100%",
           height: 550,
@@ -41,7 +41,7 @@ export default function SignInScreen({ navigation }) {
         >
           {/* FLAG */}
           <Image
-            source={require("../assets/anh3.png")} // logo quốc gia
+            source={require("../assets/anh3.png")}
             style={{ width: 25, height: 18, marginRight: 10 }}
           />
 

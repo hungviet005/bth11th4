@@ -17,7 +17,7 @@ export default function LoginScreen({ navigation }) {
         {/* LOGO CỦ CẢI */}
         <View style={{ alignItems: "center", marginTop: 60 }}>
           <Image
-            source={require("../assets/carot.png")} // 👈 ảnh củ cải của bạn
+            source={require("../assets/carot.png")} 
             style={{
               width: 50,
               height: 50,
