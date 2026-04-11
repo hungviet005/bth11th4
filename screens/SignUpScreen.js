@@ -19,7 +19,7 @@ export default function SignUpScreen({ navigation }) {
         {/* LOGO */}
         <View style={{ alignItems: "center", marginTop: 60 }}>
           <Image
-            source={require("../assets/carot.png")} // 👈 logo của bạn
+            source={require("../assets/carot.png")} 
             style={{ width: 50, height: 50 }}
           />
         </View>
