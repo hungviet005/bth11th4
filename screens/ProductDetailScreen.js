@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     color: "#181725",
   },
   imageWrap: {
-    height: 240,
+    height: 280,
     borderRadius: 28,
     backgroundColor: "#F2F3F2",
     alignItems: "center",
@@ -117,8 +117,8 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   productImage: {
-    width: 210,
-    height: 210,
+    width: 250,
+    height: 250,
   },
   title: {
     fontSize: 24,

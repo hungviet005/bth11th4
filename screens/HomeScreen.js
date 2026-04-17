@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
   },
   bannerImage: {
     width: "100%",
-    height: 120,
+    height: 140,
   },
   sectionHeader: {
     flexDirection: "row",
@@ -249,14 +249,14 @@ const styles = StyleSheet.create({
     borderColor: "#E2E2E2",
     borderRadius: 18,
     backgroundColor: "#fff",
-    padding: 14,
+    padding: 12,
     marginRight: 12,
     marginBottom: 16,
   },
   cardImage: {
     width: "100%",
-    height: 80,
-    marginBottom: 12,
+    height: 102,
+    marginBottom: 8,
   },
   cardTitle: {
     fontSize: 15,
@@ -304,8 +304,8 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   groceryImage: {
-    width: 36,
-    height: 36,
+    width: 48,
+    height: 48,
     marginRight: 8,
   },
   groceryText: {

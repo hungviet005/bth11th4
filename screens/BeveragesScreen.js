@@ -7,6 +7,7 @@ import {
   FlatList,
   Image,
 } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
 
 // Replace these image paths with your final beverages assets.
 const BEVERAGE_IMAGES = {
@@ -52,7 +53,7 @@ export default function BeveragesScreen({ navigation }) {
         </TouchableOpacity>
         <Text style={styles.title}>Beverages</Text>
         <TouchableOpacity>
-          <Text style={styles.topIcon}>⚙</Text>
+          <Ionicons name="options-outline" size={20} color="#181725" style={styles.topIcon} />
         </TouchableOpacity>
       </View>
 
@@ -100,13 +101,13 @@ const styles = StyleSheet.create({
     borderColor: "#E2E2E2",
     borderRadius: 18,
     backgroundColor: "#fff",
-    padding: 14,
+    padding: 12,
     marginBottom: 12,
   },
   cardImage: {
     width: "100%",
-    height: 72,
-    marginBottom: 12,
+    height: 98,
+    marginBottom: 8,
   },
   cardName: {
     fontSize: 15,
