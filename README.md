@@ -14,5 +14,9 @@ XA Viêt HUNG 23810310278
 <img width="943" height="2048" alt="image" src="https://github.com/user-attachments/assets/b7f2928b-bddd-4254-9ce6-cfeb9ada57e9" />
 <img width="943" height="2048" alt="image" src="https://github.com/user-attachments/assets/efeb94e0-9731-4c8c-bada-7d50add8287f" />
 <img width="943" height="2048" alt="image" src="https://github.com/user-attachments/assets/90250ef3-b904-4145-88d3-0f6e61977d23" />
+<img width="943" height="2048" alt="image" src="https://github.com/user-attachments/assets/6d3e0763-8153-41fa-9cf8-2818e6236325" />
+<img width="943" height="2048" alt="image" src="https://github.com/user-attachments/assets/a3587f26-e634-42b6-945c-ee88cf642112" />
+<img width="943" height="2048" alt="image" src="https://github.com/user-attachments/assets/b3bfeb40-fecf-4576-9fff-ff12a0c5ac01" />
+<img width="943" height="2048" alt="image" src="https://github.com/user-attachments/assets/d06aa959-ace9-4389-b11c-7f80d98803f7" />
 
 https://drive.google.com/file/d/1xN5gar8cx4WS9Mjfi4T7krsOr0Lj-f5b/view?usp=sharing
