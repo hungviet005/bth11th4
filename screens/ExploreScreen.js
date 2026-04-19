@@ -36,10 +36,20 @@ export default function ExploreScreen({ navigation }) {
         <Text style={styles.title}>Find Products</Text>
       </View>
 
-      <View style={styles.searchBox}>
+      <TouchableOpacity
+        style={styles.searchBox}
+        activeOpacity={0.9}
+        onPress={() => navigation.navigate("Search")}
+      >
         <Text style={styles.searchIcon}>🔍</Text>
-        <TextInput placeholder="Search Store" placeholderTextColor="#8E8E93" style={styles.searchInput} />
-      </View>
+        <TextInput
+          placeholder="Search Store"
+          placeholderTextColor="#8E8E93"
+          style={styles.searchInput}
+          editable={false}
+          pointerEvents="none"
+        />
+      </TouchableOpacity>
 
       <FlatList
         data={categories}

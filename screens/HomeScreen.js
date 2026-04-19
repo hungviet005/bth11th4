@@ -143,15 +143,15 @@ export default function HomeScreen({ navigation }) {
           <Ionicons name="storefront-outline" size={22} color="#53B175" style={styles.navIcon} />
           <Text style={[styles.navLabel, styles.navLabelActive]}>Shop</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate("Explore")}> 
+        <TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate("Explore")}>
           <Ionicons name="search-outline" size={22} color="#181725" style={styles.navIcon} />
           <Text style={styles.navLabel}>Explore</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.navItem}>
+        <TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate("Cart")}>
           <Ionicons name="cart-outline" size={22} color="#181725" style={styles.navIcon} />
           <Text style={styles.navLabel}>Cart</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.navItem}>
+        <TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate("Favorites")}>
           <Ionicons name="heart-outline" size={22} color="#181725" style={styles.navIcon} />
           <Text style={styles.navLabel}>Favourite</Text>
         </TouchableOpacity>
